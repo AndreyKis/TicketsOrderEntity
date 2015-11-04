@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50825C65-614E-4DBB-9EA7-1D8CB6EEA27E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Проездные</RootNamespace>
+    <AssemblyName>Проездные</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Проездные.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewOrder.Designer.cs">
+      <DependentUpon>AddNewOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewPerson.Designer.cs">
+      <DependentUpon>AddNewPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewPrice.Designer.cs">
+      <DependentUpon>AddNewPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewRate.Designer.cs">
+      <DependentUpon>AddNewRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewTicket.Designer.cs">
+      <DependentUpon>AddNewTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewType.Designer.cs">
+      <DependentUpon>AddNewType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteOrder.Designer.cs">
+      <DependentUpon>DeleteOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePerson.Designer.cs">
+      <DependentUpon>DeletePerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePrice.Designer.cs">
+      <DependentUpon>DeletePrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteRate.Designer.cs">
+      <DependentUpon>DeleteRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteTicket.Designer.cs">
+      <DependentUpon>DeleteTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteType.Designer.cs">
+      <DependentUpon>DeleteType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddNewOrder.resx">
+      <DependentUpon>AddNewOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewPerson.resx">
+      <DependentUpon>AddNewPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewPrice.resx">
+      <DependentUpon>AddNewPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewRate.resx">
+      <DependentUpon>AddNewRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewTicket.resx">
+      <DependentUpon>AddNewTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewType.resx">
+      <DependentUpon>AddNewType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteOrder.resx">
+      <DependentUpon>DeleteOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePerson.resx">
+      <DependentUpon>DeletePerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePrice.resx">
+      <DependentUpon>DeletePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRate.resx">
+      <DependentUpon>DeleteRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteTicket.resx">
+      <DependentUpon>DeleteTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteType.resx">
+      <DependentUpon>DeleteType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesToTicketsDB\AccessToTicketsDB.csproj">
+      <Project>{ff6bf323-2d7a-4def-8231-7286014f0216}</Project>
+      <Name>AccessToTicketsDB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{b0d3179a-dd43-4631-a968-4a71e3146427}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

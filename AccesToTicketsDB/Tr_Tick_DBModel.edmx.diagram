@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="da5f9834bea64a2189d079f08c4c50bf" Name="Diagram1">
+        <EntityTypeShape EntityType="Tr_Tick_DBModel.Main" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_Tick_DBModel.Person" Width="1.5" PointX="2.875" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_Tick_DBModel.Price" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_Tick_DBModel.Rate" Width="1.5" PointX="6.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_Tick_DBModel.Ticket" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Tr_Tick_DBModel.Type" Width="1.5" PointX="0.5" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="Tr_Tick_DBModel.FK_Main_Person" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_Tick_DBModel.FK_Main_Ticket" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_Tick_DBModel.FK_Ticket_Price" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_Tick_DBModel.FK_Ticket_Rate" ManuallyRouted="false" />
+        <AssociationConnector Association="Tr_Tick_DBModel.FK_Ticket_Type" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

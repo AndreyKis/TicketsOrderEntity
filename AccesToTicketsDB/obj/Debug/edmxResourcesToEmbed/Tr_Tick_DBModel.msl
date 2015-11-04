@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Tr_Tick_DBModelContainer" CdmEntityContainer="Tr_Tick_DBEntities">
+    <EntitySetMapping Name="Main">
+      <EntityTypeMapping TypeName="Tr_Tick_DBModel.Main">
+        <MappingFragment StoreEntitySet="Main">
+          <ScalarProperty Name="m_id" ColumnName="m_id" />
+          <ScalarProperty Name="pers_id" ColumnName="pers_id" />
+          <ScalarProperty Name="ticket_id" ColumnName="ticket_id" />
+          <ScalarProperty Name="month" ColumnName="month" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="pledge" ColumnName="pledge" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Person">
+      <EntityTypeMapping TypeName="Tr_Tick_DBModel.Person">
+        <MappingFragment StoreEntitySet="Person">
+          <ScalarProperty Name="ppers_id" ColumnName="ppers_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="date_begin_ed" ColumnName="date_begin_ed" />
+          <ScalarProperty Name="date_end_ed" ColumnName="date_end_ed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Price">
+      <EntityTypeMapping TypeName="Tr_Tick_DBModel.Price">
+        <MappingFragment StoreEntitySet="Price">
+          <ScalarProperty Name="pprice_id" ColumnName="pprice_id" />
+          <ScalarProperty Name="price_name" ColumnName="price_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rate">
+      <EntityTypeMapping TypeName="Tr_Tick_DBModel.Rate">
+        <MappingFragment StoreEntitySet="Rate">
+          <ScalarProperty Name="rrate_id" ColumnName="rrate_id" />
+          <ScalarProperty Name="rrate_name" ColumnName="rrate_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ticket">
+      <EntityTypeMapping TypeName="Tr_Tick_DBModel.Ticket">
+        <MappingFragment StoreEntitySet="Ticket">
+          <ScalarProperty Name="tticket_id" ColumnName="tticket_id" />
+          <ScalarProperty Name="ticket_name" ColumnName="ticket_name" />
+          <ScalarProperty Name="tprice_id" ColumnName="tprice_id" />
+          <ScalarProperty Name="trate_id" ColumnName="trate_id" />
+          <ScalarProperty Name="ttype_id" ColumnName="ttype_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Type">
+      <EntityTypeMapping TypeName="Tr_Tick_DBModel.Type">
+        <MappingFragment StoreEntitySet="Type">
+          <ScalarProperty Name="ttype_id" ColumnName="ttype_id" />
+          <ScalarProperty Name="ttype_name" ColumnName="ttype_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

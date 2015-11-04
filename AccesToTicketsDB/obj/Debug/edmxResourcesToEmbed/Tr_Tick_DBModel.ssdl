@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Tr_Tick_DBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Main">
+    <Key>
+      <PropertyRef Name="m_id" />
+    </Key>
+    <Property Name="m_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="pers_id" Type="int" Nullable="false" />
+    <Property Name="ticket_id" Type="int" Nullable="false" />
+    <Property Name="month" Type="date" Nullable="false" />
+    <Property Name="amount" Type="int" Nullable="false" />
+    <Property Name="pledge" Type="int" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="ppers_id" />
+    </Key>
+    <Property Name="ppers_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="date_begin_ed" Type="date" />
+    <Property Name="date_end_ed" Type="date" />
+  </EntityType>
+  <EntityType Name="Price">
+    <Key>
+      <PropertyRef Name="pprice_id" />
+    </Key>
+    <Property Name="pprice_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="price_name" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rate">
+    <Key>
+      <PropertyRef Name="rrate_id" />
+    </Key>
+    <Property Name="rrate_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="rrate_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Ticket">
+    <Key>
+      <PropertyRef Name="tticket_id" />
+    </Key>
+    <Property Name="tticket_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ticket_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tprice_id" Type="int" Nullable="false" />
+    <Property Name="trate_id" Type="int" Nullable="false" />
+    <Property Name="ttype_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Type">
+    <Key>
+      <PropertyRef Name="ttype_id" />
+    </Key>
+    <Property Name="ttype_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ttype_name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Main_Person">
+    <End Role="Person" Type="Self.Person" Multiplicity="1" />
+    <End Role="Main" Type="Self.Main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="ppers_id" />
+      </Principal>
+      <Dependent Role="Main">
+        <PropertyRef Name="pers_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Main_Ticket">
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="1" />
+    <End Role="Main" Type="Self.Main" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ticket">
+        <PropertyRef Name="tticket_id" />
+      </Principal>
+      <Dependent Role="Main">
+        <PropertyRef Name="ticket_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Price">
+    <End Role="Price" Type="Self.Price" Multiplicity="1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Price">
+        <PropertyRef Name="pprice_id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="tprice_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Rate">
+    <End Role="Rate" Type="Self.Rate" Multiplicity="1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rate">
+        <PropertyRef Name="rrate_id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="trate_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ticket_Type">
+    <End Role="Type" Type="Self.Type" Multiplicity="1" />
+    <End Role="Ticket" Type="Self.Ticket" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type">
+        <PropertyRef Name="ttype_id" />
+      </Principal>
+      <Dependent Role="Ticket">
+        <PropertyRef Name="ttype_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище Tr_Tick_DBModelContainer">
+    <EntitySet Name="Main" EntityType="Self.Main" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Price" EntityType="Self.Price" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rate" EntityType="Self.Rate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Ticket" EntityType="Self.Ticket" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Type" EntityType="Self.Type" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Main_Person" Association="Self.FK_Main_Person">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Main" EntitySet="Main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Main_Ticket" Association="Self.FK_Main_Ticket">
+      <End Role="Ticket" EntitySet="Ticket" />
+      <End Role="Main" EntitySet="Main" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Price" Association="Self.FK_Ticket_Price">
+      <End Role="Price" EntitySet="Price" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Rate" Association="Self.FK_Ticket_Rate">
+      <End Role="Rate" EntitySet="Rate" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ticket_Type" Association="Self.FK_Ticket_Type">
+      <End Role="Type" EntitySet="Type" />
+      <End Role="Ticket" EntitySet="Ticket" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
