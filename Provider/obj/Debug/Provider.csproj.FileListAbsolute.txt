@@ -1,0 +1,7 @@
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\bin\Debug\Provider.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\bin\Debug\Provider.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\bin\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\bin\Debug\Common.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\obj\Debug\Provider.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\obj\Debug\Provider.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Provider\obj\Debug\Provider.pdb

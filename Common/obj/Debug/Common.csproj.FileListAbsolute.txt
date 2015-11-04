@@ -1,0 +1,12 @@
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Common\bin\Debug\Common.dll.config
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Common\bin\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Common\bin\Debug\Common.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Common\obj\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Common\obj\Debug\Common.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\Common\bin\Debug\Common.dll.config
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\Common\bin\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\Common\bin\Debug\Common.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\Common\obj\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\Common\obj\Debug\Common.pdb

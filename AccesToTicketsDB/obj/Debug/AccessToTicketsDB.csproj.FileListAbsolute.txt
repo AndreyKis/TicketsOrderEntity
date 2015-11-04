@@ -1,0 +1,20 @@
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\AccesToTicketsDB.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\AccesToTicketsDB.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\Provider.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\Common.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\Provider.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\obj\Debug\AccessToTicketsDB.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\obj\Debug\AccesToTicketsDB.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба №4\Проездные\AccesToTicketsDB\obj\Debug\AccesToTicketsDB.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\obj\Debug\AccessToTicketsDB.csprojResolveAssemblyReference.cache
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\obj\Debug\AccesToTicketsDB.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\AccesToTicketsDB.dll.config
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\AccesToTicketsDB.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\AccesToTicketsDB.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\Common.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\EntityFramework.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\Common.pdb
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\EntityFramework.xml
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Андрей\Desktop\Пары\Второй курс\Второй семестр\Прога\Лабы\Лаба 5\Лаба №4\Проездные\AccesToTicketsDB\obj\Debug\AccesToTicketsDB.pdb
